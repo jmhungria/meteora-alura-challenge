@@ -1,0 +1,13 @@
+.serviços {
+    padding-top: 4em;
+}
+.container__serviços {
+    background-color: var(--preto);
+}
+.serviços__titulo {
+    color: var(--branco);
+    font-weight: 500;
+    font-size: 2em;
+    text-align: center;
+    padding: 1em 0 1em 0;
+}

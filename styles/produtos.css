@@ -1,0 +1,48 @@
+.produtos__titulo {
+    font-size: 2em;
+    font-weight: 500;
+    text-align: center;
+    padding: 1.5em 0 0 0;
+}
+.produtos__titulo-texto,
+.produtos__preco {
+    font-weight: 700;
+    padding: 1em 0 1em 0;
+}
+
+.produtos__link {
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--branco);
+    font-size: 1em;
+}
+
+.produtos__cards {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5em;
+}
+.produtos__cards-lista {
+    flex-basis: 2em;
+    padding: 0 1.2em 0 1.2em;
+}
+.produtos__paragrafo {
+    font-size: 13px;
+}
+
+.container__linha {
+    border: 1px solid var(--cinza2);
+}
+.container__texto {
+    margin-left: .5em;
+}
+.produtos__botao {
+    background-color: var(--roxo);
+    border: none;
+    color: var(--branco);
+    padding: .5em 1em;
+    margin-bottom: .5em;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+}

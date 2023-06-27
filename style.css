@@ -1,0 +1,22 @@
+@import url(styles/header.css);
+@import url(styles/carrossel.css);
+@import url(styles/categorias.css);
+@import url(styles/produtos.css);
+@import url(styles/serviços.css);
+
+
+:root {
+    --fonte-principal: "Inter" ;
+    --branco: #f3f6f7;
+    --cinza: #343A40;
+    --preto: #000000;
+    --amarelo: #DAFF01;
+    --roxo: #9353FF;
+    --cinza2: #c9c6c6;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}

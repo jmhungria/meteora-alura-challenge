@@ -1,0 +1,48 @@
+.cabecalho {
+    background-color: var(--preto);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.container__itens {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lista-itens-links,
+.lista-itens-titulo {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.lista__menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.lista-itens {
+    padding: 0 1em;
+}
+
+.container__pesquisar {
+    border: 8px solid var(--branco);
+    background-color: var(--branco); 
+    border-radius: 1px;   
+}
+.container__pesquisar::placeholder {
+    font-family: 'Inter';
+    padding: .5em;
+}
+.botao__pesquisar {
+    background-color: transparent;
+    color: var(--branco);
+    border: 1px solid var(--branco);
+    padding: .6em;
+    cursor: pointer;
+}
+.botao__pesquisar::placeholder {
+    font-family: 'Inter';
+}
+
